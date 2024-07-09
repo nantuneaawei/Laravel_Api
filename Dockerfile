@@ -21,7 +21,8 @@ RUN apt-get update && apt-get install -y \
     php-xdebug \
     composer \
     mysql-client \
-    redis-server
+    redis-server \
+    git
 
 COPY ./nginx/nginx.conf /etc/nginx/nginx.conf
 
